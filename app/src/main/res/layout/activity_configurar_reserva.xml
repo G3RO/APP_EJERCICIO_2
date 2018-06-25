@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kevinsolano.firebase_tutorial.ConfigurarReservaActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bac"
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:layout_gravity="top"
+        android:drawableBottom="@drawable/ic_arrow_back_black_24dp"
+        android:layout_marginBottom="2sp"/>
+    <Spinner
+        android:id="@+id/diasSpin"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8sp"/>
+
+    <Spinner
+        android:id="@+id/mesesSpin"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8sp"/>
+
+    <Spinner
+        android:id="@+id/anioSpin"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8sp"/>
+
+    <Spinner
+        android:id="@+id/horaSpin"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8sp"/>
+
+    <Spinner
+        android:id="@+id/tipoGar"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/precioGar"
+        android:layout_marginBottom="5sp"
+        />
+
+    <Button
+        android:id="@+id/calcPrecio"
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:text="Calcular Precio"
+        android:layout_marginBottom="10sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/reservar"
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:text="Pagar"
+        android:layout_marginBottom="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

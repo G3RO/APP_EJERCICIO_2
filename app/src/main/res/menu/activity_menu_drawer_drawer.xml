@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Garajes Cercanos" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/reservas"
+            android:icon="@drawable/ic_reservac"
+            android:title="Reservaciones" />
+        <item
+            android:id="@+id/favoritos"
+            android:icon="@drawable/ic_favorite_border_black_24dp"
+            android:title="Garajes Favoritos" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Quejas" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+
+</menu>

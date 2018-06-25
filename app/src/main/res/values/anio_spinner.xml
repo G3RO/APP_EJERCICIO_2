@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="anio_spinner">
+        <item>2018</item>
+        <item>2019</item>
+    </string-array>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="368dp"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:layout_width="200sp"
+        android:layout_height="30sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="Iniciar Sesión"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:textAlignment="center"
+        android:id="@+id/correoLogin"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:textAlignment="center"
+        android:id="@+id/contrasenaLogin"/>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="35sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Iniciar Sesión"
+        android:layout_marginBottom="15sp"
+        android:id="@+id/botonInicioS"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrate"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:id="@+id/correoRegis"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:id="@+id/contrasenaRegis"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:id="@+id/usernameRegis"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:id="@+id/nombreRegis"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono"
+        android:id="@+id/telefonoRegis"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección"
+        android:id="@+id/direccionRegis"
+        />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="35sp"
+        android:text="Registrate"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/botonRegis"/>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Firebase_tutorial</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_ciclista_maps">Map</string>
+    <string name="title_activity_anfitrion_maps">Map</string>
+    <string name="title_activity_menu_drawer">MenuDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

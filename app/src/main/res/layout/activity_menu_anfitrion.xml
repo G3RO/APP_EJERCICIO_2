@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kevinsolano.firebase_tutorial.MenuAnfitrionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="GACY"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/nombreAnf"
+        android:layout_marginBottom="10sp"
+        />
+
+    <ImageView
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:id="@+id/perfil"
+        android:src= "@mipmap/ic_park"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20sp"
+        />
+
+    <ImageView
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:id="@+id/verReservas"
+        android:src= "@mipmap/ic_reserva"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20sp"
+        />
+
+    <ImageView
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:id="@+id/configur"
+        android:src= "@mipmap/ic_configu"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10sp"
+        />
+
+</LinearLayout>
+
